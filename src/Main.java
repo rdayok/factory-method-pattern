@@ -7,7 +7,7 @@ public class Main {
         and lets the subtypes define what object to instantiate */
 
         // my example using interfaces
-        AnimalCreator creator = new RandomCreator();
-        AnimalCreator creator1 = new EvenCreator();
+        AnimalCreator creator = new RandomAnimalCreator();
+        AnimalCreator creator1 = new EvenAnimalCreator();
     }
 }
